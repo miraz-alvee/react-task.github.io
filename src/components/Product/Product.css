@@ -1,0 +1,43 @@
+/* Product.css */
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+   
+    transition: transform 0.3s ease-in-out;
+}
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.set-image{
+   height: 100%;
+  
+}
+
+.div-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .card-title {
+    text-align: center;
+} */
+
+.card-title h1 {
+    margin: 5px;
+}
+
+/* .card-image {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .card-image img {
+    max-width: 100%;
+    max-height: 100%;
+} */

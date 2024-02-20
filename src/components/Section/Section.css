@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+}
+
+.first-div,.second-div {
+    border: 2px solid rgb(237, 216, 216);
+    height: 590px;
+}
+
+.first-div {
+    flex: 1;
+    width: 30%;
+    position :sticky;
+}
+
+.second-div {
+    flex: 3;
+    width: 70%;
+    margin-left: 10px;
+
+}
